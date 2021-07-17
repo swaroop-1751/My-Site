@@ -1,0 +1,253 @@
+body {
+  margin   : 0;
+  padding   : 0;
+  outline     : 0;
+  text-align    : center;
+  font-family     : 'Rubik', sans-serif;
+  width             : 100%;
+  background-color    :#0B1E2CD9 ;
+  background            : radial-gradient(#007580,#023047);
+  box-sizing                :border-box;
+  overflow-x              : hidden;
+
+}
+
+.top-container{
+  text-align                           : center;
+  max-width                          : 100%;
+  position                         : relative;
+  padding-top                   :2.6rem;
+  height                      :40rem;
+  letter-spacing           : 0.1rem;
+  background-image       : radial-gradient(#023047, #001C57 );
+
+   }
+
+   #heading {
+     font-family            : 'Mystery Quest', cursive;
+     margin                   : 2rem auto 0 auto;
+     background                 : -webkit-linear-gradient(#BB2205,#F6830F);
+     -webkit-background-clip      : text;
+     -webkit-text-fill-color        : transparent;
+     font-size                        : 1.8rem;
+     filter                              : saturate(2);
+}
+
+#sub{
+  font-family            : 'Griffy', cursive;
+  background-image: linear-gradient(#39A2DB,#3EDBF0);
+  font-size              : 1rem;
+  filter                 : saturate(1.2);
+}
+
+.pro{
+  width     :30%;
+  margin    :auto;
+}
+
+.moon {
+  position   : absolute;
+  top        :-6rem;
+  right      :-4.5rem;
+  height     :20rem;
+}
+
+.cloud {
+  position   : absolute;
+  height     : 9rem;
+  width      : 16.5rem;
+  right      : 1.8rem;
+  top        : 2.5rem;
+  opacity    : 0.4;
+  filter     : saturate(4);
+  animation-duration: 17s;
+  animation-timing-function: linear;
+  animation-name: cloud;
+  animation-iteration-count: infinite;
+  z-index:2;
+}
+
+@keyframes cloud {
+  from {left: 0px;}
+  to {left: 2000px;}
+}
+
+.web {
+  position   : absolute;
+  height     :14rem;
+  width      :14rem;
+  top        :2.5rem;
+  left       :33rem;
+  opacity    :0.5;
+}
+
+
+.night-tree {
+  position   : absolute;
+  display    : block;
+  height     : 33rem;
+  width      : 35rem;
+  top        : 9.47rem;
+  left       : 0.2rem;
+  bottom     : 0px;
+}
+
+.castle{
+  position  : absolute;
+  display   : block;
+  height    : 20rem;
+  width     : 24rem;
+  bottom    : -0.78rem;
+  right     : 4rem;
+
+}
+
+.nightman{
+  position  : relative;
+  height    : 12rem;
+  width     : 7.5rem;
+  transform : rotate(357deg);
+  border    : 3px solid transparent;
+  margin    : 2rem auto 0.5rem auto;
+}
+
+hr{
+  margin-top        : 3rem;
+  margin-bottom     : 1rem;
+  color             : #FC5404;
+  width             : 6%;
+  border-width      : 0.35rem;
+  border-style      : none;
+  border-top-style  : dotted;
+}
+
+h1{
+  font-family               : 'Emilys Candy', cursive;
+  background                : -webkit-linear-gradient(#BB2205,#F6830F);
+  -webkit-background-clip   : text;
+  -webkit-text-fill-color   : transparent;
+  letter-spacing            :0.06rem;
+  filter                    : saturate(1.8);
+
+
+}
+
+h2{
+  text-decoration            : underline;
+  font-family                : 'Smythe', cursive;
+  background                 : -webkit-linear-gradient(#39A2DB,#3EDBF0);
+  -webkit-background-clip    : text;
+  -webkit-text-fill-color    : transparent;
+  letter-spacing             :0.02rem;
+}
+
+
+.code-img{
+display           : inline-block;
+height            : 9.5rem;
+width             : 10rem;
+border-radius     : 50%;
+float             : left;
+margin            : 1.4rem 2rem auto 0;
+filter            : saturate(1.8);
+
+
+}
+
+.skill-row1{
+  display        : inline-block;
+  max-width      : 100%;
+  width          : 60%;
+  text-align     : left ;
+  margin-top     : 2rem;
+  margin-bottom  : 7rem;
+  }
+
+
+.sci-img{
+  display        : inline-block;
+  height         : 9rem;
+  width          : 10rem;
+  border-radius  : 50%;
+  float          : right;
+  margin         : 1.4rem 0 auto 0.5rem;
+  filter         : saturate(1.2);
+  margin-bottom  : 1rem;
+}
+
+
+.skill-row2{
+  display        : inline-block;
+  max-width      : 100%;
+  width          : 50%;
+  text-align     : left;
+  padding-left   : 14.5rem;
+  }
+
+.contact-me p{
+    margin: 0 auto 2rem auto;
+}
+
+.contact-me {
+    margin: 3rem auto 3rem auto;
+  }
+
+p{
+  font-family   : 'PT Sans', sans-serif;
+  color         : #FFFFFFFF;
+  line-height   : 2rem;
+  word-spacing  : 0.1rem;
+}
+
+.btn{
+  background: #39A2DB;
+  background-image: -webkit-linear-gradient(top, #39A2DB, #00afb9);
+  background-image: -moz-linear-gradient(top, #39A2DB, #00afb9);
+  background-image: -ms-linear-gradient(top, #39A2DB, #00afb9);
+  background-image: -o-linear-gradient(top, #39A2DB, #00afb9);
+  background-image: linear-gradient(to bottom, #39A2DB, #00afb9);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Griffy', cursive;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+.bottom-container{
+    background-image: linear-gradient(#023047,#023047);
+    padding: 20px 0px 5px 0px;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+}
+
+a:hover{
+  color: #3EDBF0;
+}
+
+a{
+  color: #d9d9d9;
+  margin: 20px 7px;
+  text-decoration: none;
+}
+
+.copy-right{
+  color: #3EDBF0;
+  font-size: 0.75rem;
+}
