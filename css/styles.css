@@ -215,7 +215,7 @@ p{
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-
+  filter: drop-shadow(0 0 0.75rem  #00afb9);
 }
 
 .btn:hover {
